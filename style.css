@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue&family=Merriweather&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Merriweather', serif;
+  background-image: url('/computer-blue-opacity-background.jpg');
+  color:white;
+  
+}
+
+blockquote {
+  text-transform: uppercase;
+  border-left: 7px solid aqua;
+  border-radius: 2px;
+  padding-left: 7px;
+}
+
+ul>li {
+  display: inline;
+  
+}
+
+.welcome {
+  border: 2px solid aquamarine;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  
+  
+}
+
+a:hover {
+  background-color: #6bb9e3 ;
+}
+
+ul>li {
+  list-style: none;
+}
