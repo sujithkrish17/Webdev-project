@@ -5,31 +5,35 @@ body {
   font-family: 'Ubuntu', sans-serif;
   background-image: url('/computer-blue-opacity-background.jpg');
   color:white;
+}
+
+.menu {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.menu li {
+  list-style-type: none;
+  display: inline;
+  padding-inline-start: 20px;
   
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: coral ;
 }
 
 blockquote {
   text-transform: uppercase;
   border-left: 7px solid aqua;
-  border-radius: 2px;
   padding-left: 7px;
-}
-
-.parvesh {
-  border: 3px #4c6ca0 solid;
-  padding: 10px 15px;
-  text-align: center;
-  
-}
-
-img {
-  width: 200px;
-  
-}
-
-#pill {
-  text-align: center;
-  font-weight: bolder;
+  font-size: 20px;
 }
 
 .welcome {
@@ -39,31 +43,30 @@ img {
   max-width: 350px;
 }
 
-.menu {
-  background-color: #ffffff;
-  overflow: auto;
-  width: 300px;
-  padding: 9px 19px;
-  
+h4 {
+  text-align: center;
+  font-weight: bolder;
 }
 
-.menu li {
+ul {
   list-style: none;
-  border-right: 1px darkblue solid;
-  background-origin: padding-box;
-  float: left;
-  padding: 10px;
-  
 }
 
-.menu li a {
-  color: black;
-  text-decoration: none;
-  display: block;
+img {
+  width: 200px;
 }
 
-.menu li a:hover {
-  color: coral;
-  
-  
+.parvesh {
+  border: 3px #4c6ca0 solid;
+  padding: 10px 15px;
+  text-align: center;
 }
+
+.jeya {
+  border: 3px #4c6ca0 solid;
+  padding: 10px 15px;
+  text-align: center; 
+}
+
+
+
